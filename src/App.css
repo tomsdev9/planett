@@ -23,6 +23,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* Add this to your global CSS file */
+.hover\:scale-110:hover {
+  transform: scale(1.10);
+}
+.transition-transform {
+  transition: transform 0.3s;
+}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +43,4 @@
     transform: rotate(360deg);
   }
 }
+
