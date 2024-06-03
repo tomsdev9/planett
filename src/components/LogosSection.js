@@ -26,22 +26,29 @@ const LogosSection = () => {
                 <h3 className="font-semibold text-sm text-gray-600 text-center">
                     Voici quelques références des clients qui nous font confiance :
                 </h3>
-                <div className="mt-6">
-                    <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
-                        {logos.map((logo, index) => (
-                            <motion.li
-                                key={index}
-                                className="transition-transform duration-300 hover:scale-110"
-                                initial={{ opacity: 0, y: 50 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.5, delay: index * 0.2 }}
-                                whileTap={{ scale: 0.9 }}
-                                onClick={handleClick}
-                            >
-                                <img src={logo.src} alt={logo.alt} className="w-36 my-auto" />
-                            </motion.li>
-                        ))}
-                    </ul>
+                <div className="mt-6 flex justify-center">
+                    <motion.div
+                        className="border-2 border-[#3173AD] p-6 rounded-lg"
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
+                            {logos.map((logo, index) => (
+                                <motion.li
+                                    key={index}
+                                    className="transition-transform duration-300 hover:scale-110"
+                                    initial={{ opacity: 0, y: 50 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.5, delay: index * 0.2 }}
+                                    whileTap={{ scale: 0.9 }}
+                                    onClick={handleClick}
+                                >
+                                    <img src={logo.src} alt={logo.alt} className="w-36 my-auto" />
+                                </motion.li>
+                            ))}
+                        </ul>
+                    </motion.div>
                 </div>
             </div>
         </div>

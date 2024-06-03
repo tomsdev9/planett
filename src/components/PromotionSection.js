@@ -35,11 +35,11 @@ const PromotionSection = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.5 }}
                         >
-                            Le mot « nettoyage » évoque des images peu glamour.
+                            Le mot « <span style={{ color: '#3173AD' }}>nettoyage</span> » évoque des images peu glamour.
                             Chez Planett’, nous avons décidé de secouer les idées préconçues et de modifier radicalement l’approche
-                            traditionnelle au nettoyage ; nous sommes convaincus que l’entretien de vos locaux participe à l’image et à
+                            traditionnelle au nettoyage ; nous sommes convaincus que <span style={{ color: '#3173AD' }}>l’entretien de vos locaux</span> participe à l’image et à
                             l’identité de votre marque. Nous nous attachons donc à respecter vos valeurs, qui sont aussi les nôtres :
-                            Excellence, rigueur, innovation.
+                            <span style={{ color: '#3173AD' }}> Excellence</span>, <span style={{ color: '#3173AD' }}>rigueur</span>, <span style={{ color: '#3173AD' }}>innovation</span>.
                         </motion.p>
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}

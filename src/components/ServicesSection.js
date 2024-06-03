@@ -24,9 +24,9 @@ const ServicesSection = () => {
                         </svg>
                         <h2 className="mt-4 text-xl font-bold text-white">Engagement Écologique</h2>
                         <p className="mt-1 text-sm text-gray-300">
-                            L’écologie est une conviction ancrée dans nos valeurs ; elle est le lien évident entre un nettoyage efficace
+                            <span style={{ color: '#22C55E' }}>L’écologie</span> est une conviction ancrée dans nos valeurs ; elle est le lien évident entre un <span style={{ color: '#22C55E' }}>nettoyage</span> efficace
                             et une prestation tournée vers le futur. Nous avons choisi d’éliminer tous les produits nocifs pour le confort
-                            de nos agents et le bien-être de vos collaborateurs.
+                            de nos agents et le <span style={{ color: '#22C55E' }}>bien-être</span> de vos collaborateurs.
                         </p>
                     </div>
 
@@ -42,8 +42,8 @@ const ServicesSection = () => {
                         </svg>
                         <h2 className="mt-4 text-xl font-bold text-white">Produits Écologiques</h2>
                         <p className="mt-1 text-sm text-gray-300">
-                            Nous utilisons des produits à vocation 100% écologique et nos salariés sont spécialement formés pour répondre
-                            à notre engagement en faveur du développement durable sur le long terme : utilisation de l’eau ajustée, tri
+                            Nous utilisons des produits à vocation <span style={{ color: '#22C55E' }}>100% écologique</span> et nos salariés sont spécialement formés pour répondre
+                            à notre engagement en faveur du <span style={{ color: '#22C55E' }}>développement durable</span> sur le long terme : utilisation de l’eau ajustée, tri
                             sélectif, utilisation de produits adaptés… Pour une transparence totale, nous mettons à disposition de nos
                             clients, sur simple demande, toutes les fiches produits.
                         </p>
@@ -61,9 +61,9 @@ const ServicesSection = () => {
                         </svg>
                         <h2 className="mt-4 text-xl font-bold text-white">Communication et Réactivité</h2>
                         <p className="mt-1 text-sm text-gray-300">
-                            La communication est une valeur profonde pour Planett’. Des contrôles qualités mensuels, des passages assidus
+                            La communication est une <span style={{ color: '#22C55E' }}>valeur</span> profonde pour Planett’. Des contrôles qualités mensuels, des passages assidus
                             du responsable de site, des reportings fréquents mais aussi les propositions d’amélioration ne peuvent être que
-                            le fruit d’un échange efficace et régulier. Toutes les demandes clients sont traitées en temps réel. Convaincu que
+                            le fruit d’un échange <span style={{ color: '#22C55E' }}>efficace</span> et <span style={{ color: '#22C55E' }}>régulier</span>. Toutes les demandes clients sont traitées en temps réel. Convaincu que
                             le succès naît de la réactivité et s’épanouit dans la proactivité.
                         </p>
                     </div>

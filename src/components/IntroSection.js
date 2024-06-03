@@ -43,7 +43,7 @@ const IntroSection = () => {
                                 transition={{ duration: 1, delay: 0.9 }}
                             >
                                 Planett’, c’est une entreprise qui a choisi une approche moderne et innovante du nettoyage, mettant en
-                                avant l’écologie.
+                                avant <span style={{ color: '#3173AD' }}>l’écologie</span>.
                             </motion.p>
 
                             <motion.p
@@ -51,8 +51,8 @@ const IntroSection = () => {
                                 animate={{ opacity: 1 }}
                                 transition={{ duration: 1, delay: 1.2 }}
                             >
-                                Le nettoyage selon PLANETT' c'est comprendre que chaque détail a un sens. Que chaque action a sa
-                                finalité. Plus qu’un prestataire c’est le collaborateur qui vous accompagnera tout au long d’un partenariat
+                                Le <span style={{ color: '#3173AD' }}>nettoyage</span> selon PLANETT' c'est comprendre que chaque détail a un sens. Que chaque action a sa
+                                finalité. Plus qu’un prestataire c’est le collaborateur qui vous <span style={{ color: '#3173AD' }}>accompagnera</span> tout au long d’un partenariat
                                 d'échange et de services afin d'avancer ensemble.
                             </motion.p>
 
@@ -62,7 +62,7 @@ const IntroSection = () => {
                                 transition={{ duration: 1, delay: 1.5 }}
                             >
                                 PLANETT' c'est un recrutement qui a compris que la discrétion est primordiale. C’est la valorisation
-                                individuelle de chaque membre de ses équipes pour l’évolution de tous. Il est acquis qu'une équipe qui
+                                individuelle de chaque membre de ses équipes pour <span style={{ color: '#3173AD' }}>l’évolution</span> de tous. Il est acquis qu'une équipe qui
                                 n'est pas formée est une équipe qui cesse d’évoluer. Voilà pourquoi nous prévoyons des plans de
                                 formation pour nos jeunes salariés, mais aussi des actions d’évolution pour les plus anciens.
                             </motion.p>
